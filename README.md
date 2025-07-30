@@ -1,41 +1,31 @@
 # MEG-EEG Analysis
 
-This repository provides an example workflow for analyzing EEG (and MEG) data using [MNE-Python](https://mne.tools/). The workflow demonstrates how to load sample data, visualize raw signals and power spectral density, and perform basic preprocessing such as ICA.
+This repository contains Jupyter Notebook examples for analyzing EEG data using the [MNE-Python](https://mne.tools/) library.
 
----
+## Features
 
-## Table of Contents
+- Load and inspect sample EEG/MEG data
+- Plot raw signals and power spectral density
+- Preprocess data (e.g., ICA for artifact removal)
 
-- [Overview](#overview)
-- [Requirements](#requirements)
-- [Getting Started](#getting-started)
-- [Example Usage](#example-usage)
-- [Key Steps](#key-steps)
-- [References](#references)
-- [License](#license)
+## Getting Started
 
----
+1. Clone the repo:
+    ```bash
+    git clone https://github.com/MunebAli132/MEG-EEG-analysis.git
+    cd MEG-EEG-analysis
+    ```
 
-## Overview
+2. Install requirements:
+    ```bash
+    pip install mne numpy matplotlib jupyter
+    ```
 
-This project includes a Jupyter Notebook that guides you through:
+3. Open the notebook:
+    ```bash
+    jupyter notebook M245313_Muneeb\ Ali.ipynb
+    ```
 
-- Loading sample EEG/MEG data from the MNE sample dataset
-- Printing raw data info and data structure
-- Plotting power spectral density (PSD) and raw signals
-- Preprocessing data (ICA for artifact removal)
+## License
 
----
-
-## Requirements
-
-- Python 3.8 or newer
-- Jupyter Notebook
-- [MNE-Python](https://mne.tools/stable/install/index.html)
-- numpy
-- matplotlib
-
-Install the requirements with:
-
-```bash
-pip install mne numpy matplotlib jupyter
+MIT License
